@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    height: 100%;
+    background-color: black;
+}
+
+/* Barre de navigation */
+
+header {
+    width: 100%;
+    background-color: #24252A;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+nav p {
+    display: table-cell;
+    height: 60px;
+    color: #edf0f1;
+    font-size: 32px;
+    font-weight: 500px;
+    font-family: Montserrat;
+    padding-left: 10px;
+    
+    vertical-align: middle;
+}
+
+/* Container video */
+
+#container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videoBloc {
+    height: 400px;
+    width:420px;
+}
+
+video {
+    width: 400px;
+    height: 400px;
+}
+
+
+#videoButton {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#videoButton_Text {
+    color: black;
+}
+
+@media (max-height: 550px) {
+    #container {height: 100%;}
+}
+
+@media (max-height: 500px) {
+    #container {height: 100%;}
+}
+
