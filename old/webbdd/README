@@ -1,0 +1,34 @@
+Walkthrough:
+
+ouvrir le dossier dans un terminal.
+
+~/....../webbdd$ npm install --save monk@^7.1.2 mongodb@^3.5.4
+~/....../webbdd$ npm install
+~/....../webbdd$ npm start
+
+
+Dans un autre terminal, lancer mongoDB.
+
+~$ mongo
+
+
+Ouvrir le navigateur.
+http://localhost:3000						-> page d'acceuil 	//pas d'utilité pour l'instant, page de test
+http://localhost:3000/helloworld				-> bienvenue		//page de test aussi 
+http://localhost:3000/userlist					-> liste des participants	
+http://localhost:3000/newuser					-> formulaire d'ajout d'utilisateur à la base de données
+
+On peut vérifier comment les choses se sont passées sur le terminal sur lequel on a lancé mongoDB
+> show dbs					-> affiche la liste des bases de données (la bdd ScaleMyVisio vient d'être créée normalement)
+> use ScaleMyVisio				-> on se place dans la bdd ScaleMyVisio
+> show collections				-> affiche les collections de la bdd ScaleMyVisio (normalement c'est vide tant qu'on n'a pas 							   ajouté d'utilisateurs sur http://localhost:3000/newuser)
+Une fois qu'on a ajouté des utilisateurs via la page web, on peut vérifier sur le terminal mongo:
+> db.usercollection.find().pretty()		-> affiche les documents (les utilisateurs) de la collection avec une jolie mise en forme)
+
+
+
+
+
+
+
+

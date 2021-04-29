@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "create backend restful service for live video streaming service.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "toan@tabvn.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "har-validator": "^5.1.5",
+    "immutable": "^3.8.2",
+    "lodash": "^4.17.4",
+    "mongodb": "^3.0.0-rc0",
+    "uWebSockets.js": "uNetworking/uWebSockets.js#v18.14.0",
+    "ws": "5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "pstree.remy": "^1.1.3"
+  }
+}

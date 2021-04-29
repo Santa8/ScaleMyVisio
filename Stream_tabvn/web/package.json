@@ -1,0 +1,30 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": ">=0.18.1",
+    "history": "^4.7.2",
+    "hls.js": "^0.8.8",
+    "immutable": "^3.8.2",
+    "moment": "^2.20.1",
+    "mux.js": "^5.11.0",
+    "net": "^1.0.2",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-video-js-player": "^1.1.1",
+    "styled-components": "^2.2.4",
+    "video.js": "^7.11.4",
+    "videojs-contrib-hls": "^5.14.1",
+    "videojs-contrib-quality-levels": "^2.0.9",
+    "videojs-hls-quality-selector": "^1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

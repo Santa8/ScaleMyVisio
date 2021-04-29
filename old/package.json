@@ -1,0 +1,23 @@
+{
+  "name": "mediasoup-sample-server",
+  "version": "0.0.1",
+  "description": "A basic example of how to use Mediasoup on server side",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mediasoup"
+  ],
+  "author": "Mykola Popko <Footniko@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs": "^0.0.1-security",
+    "https": "^1.0.0",
+    "mediasoup": "^2.2.3",
+    "nodemon": "^2.0.7",
+    "socket.io": "^2.1.1"
+  }
+}
