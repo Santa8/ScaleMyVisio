@@ -4,7 +4,9 @@ Application de visioconference pour passer à l'echelle .
 -Lancer l'application web par les commandes suivantes:
 
 1- cd main/
+
 2- npm install
+
 3- npm start
 
 
